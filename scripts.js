@@ -1,5 +1,7 @@
 var leftImg = document.getElementById("imgLeft");
 var rightImg = document.getElementById("imgRight");
+var nextElem = document.getElementById("buttonLeft");
+var prevElem = document.getElementById("buttonRight");
 var number = 0;
 
 function setSlide() {
@@ -26,6 +28,26 @@ function setSlide() {
 		break;
 	}
 }
+
+prevElem.addEventListener('click', function(e) {
+	number = (number - 1);
+
+	if (number < 0) {
+		number = 4;
+	}
+	setSlide();
+	e.preventDefault();
+})
+
+nextElem.addEventListener('click', function(e) {
+	number = (number + 1);
+
+	if (number > 4) {
+		number = 0;
+	}
+	setSlide();
+	e.preventDefault();
+})
 
 function moveSlide() {
 	number = (number + 1);
