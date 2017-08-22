@@ -7,11 +7,11 @@ var number = 0;
 function setSlide() {
 	switch(number) {
 		case 0:
-			leftImg.src = "images/Livello5.jpg";
-			rightImg.src = "images/Livello6.jpg";
+			leftImg.src = "http://i.imgur.com/3g5jDoP.jpg";
+			rightImg.src = "http://i.imgur.com/bxgTfeP.jpg";
 		break;
 		case 1:
-			leftImg.src = "images/Livello6.jpg";
+			leftImg.src = "http://i.imgur.com/bxgTfeP.jpg";
 			rightImg.src = "images/slider3.jpg";
 		break;
 		case 2:
@@ -24,7 +24,7 @@ function setSlide() {
 		break;
 		case 4:
 			leftImg.src = "images/slider5.jpg";
-			rightImg.src = "images/Livello5.jpg";
+			rightImg.src = "http://i.imgur.com/3g5jDoP.jpg";
 		break;
 	}
 }
