@@ -507,6 +507,10 @@ footer .fa:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+.photoJumbo h1 {
+	margin-top: 140px;
+}
+
 .motto img {
 	display: none;
 }
@@ -546,8 +550,12 @@ footer .fa:hover {
     margin-top: -70px;
 }
 
-.photoJumbo {
-	margin-bottom: 20px;
+.photoJumbo h1 {
+	margin-top: 70px;
+}
+
+.photoJumbo i {
+	margin-top: 20px;
 }
 
 .motto h1 {

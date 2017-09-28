@@ -61,3 +61,22 @@ function moveSlide() {
 }
 
 setTimeout(moveSlide, 5000);
+
+
+$('#Photoapp').click(function() {
+	$('html, body').animate({
+		scrollTop: $('#Photoapp1').offset().top},
+		300);
+});
+
+$('#Design').click(function() {
+	$('html, body').animate({
+		scrollTop: $('#Design1').offset().top},
+		400);
+});
+
+$('#Download').click(function() {
+	$('html, body').animate({
+		scrollTop: $('#Download1').offset().top},
+		400);
+});
